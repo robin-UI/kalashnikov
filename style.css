@@ -1,0 +1,514 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    color: #636363;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+
+div{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    line-height: 20px;
+    border: 2px solid #eb0029;
+    border-radius: 3px;
+    background-color: #eb0029;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 25px;
+}
+.lable{
+    background-color: #eee318;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    border-bottom: 1px solid #9c9c9c;
+    display: flex;
+    padding: 0px 50px;
+}
+
+.navbar{
+    display: flex;
+    /* position: relative; */
+}
+
+.logo{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.logo img{
+    position: absolute;
+    max-height: 65px;
+    top: 17px;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    margin-right: 2.6rem;
+}
+
+.nav ul li:last-child{
+    margin-right: 0;
+}
+
+.navbar ul li a{
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar .icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar .icons li{
+    width: auto;
+    height: auto;
+    margin-right: 14px;
+}
+.navbar .icons li:last-child{
+    margin-right: 0;
+}
+
+.navbar .icons li span{
+    color:#fff
+}
+
+
+/* --------------------------+++🖼Hero+++----------------------------- */
+
+#hero{
+    width: 100%;
+    padding: 13rem;
+    padding-top: 7.8rem;
+    position: relative;
+    background-color: rgb(61, 53, 90);
+    z-index: -1;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+#hero .hero-box{
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+#hero .hero-box div{
+    width: 100%;
+    text-align: center;
+}
+
+#hero .hero-box h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#hero .hero-box h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #9c9c9c;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* #hero .hero-box a{
+
+
+} */
+
+.hero-video{
+    background-color: #000;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+    z-index: -1;
+    background-size: cover;
+
+}
+
+
+
+
+
+/* ------------------------+++ 📦Box +++------------------------*/
+
+.box{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 828px;
+}
+
+.box .cube{
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+
+.horizon{
+    height: 50%;
+}
+
+.vertical {
+    flex-direction: row;
+    height: 50%;
+}
+
+.vertical div:first-child{
+    /* height: 100%; */
+    width: 50%;
+}
+
+.vertical div:last-child{
+    /* height: 100%; */
+    width: 50%;
+}
+
+
+.image{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* .sim{
+    margin: 10px;
+} */
+
+.card-box {
+    font-size: 23px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* --------------------+++First-Box+++------------------------ */
+#first-box .horizon{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2022/04/gunzonedeals-hp-1500x750.jpg); */
+    background: #000;
+}
+
+
+#first-box .vertical .first{
+
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/08/cloud-defensive-light-kusa.jpg); */
+    background: #421a1a;
+}
+
+#first-box .vertical .last{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/07/KUSA_05-sq.jpg); */
+    background-color: #e5e5e5;
+}
+
+#first-box .fb-sd{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/05/k-media-hp-1.jpg); */
+    background-color: burlywood;
+}
+
+
+
+/* --------------------+++Second-Box+++------------------------ */
+#second-box .fb-sd{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/08/ks-12T-fde-shotgun-sq.jpg); */
+    background-color: #eee318;
+}
+
+#second-box .horizon{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/kr103.jpg); */
+    background-color: cornsilk;
+}
+
+#second-box .vertical .first{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KP-9.jpg); */
+    background-color: chartreuse;
+}
+
+#second-box .vertical .last{
+    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KR-9.jpg); */
+    background-color: floralwhite;
+}
+
+
+/* --------------------+++Third-Box+++------------------------ */
+#third-box{
+    height: 436px;
+}
+
+#third-box .fb-sd{
+    background-image: url(https://kalashnikov.wpengine.com/wp-content/uploads/2020/05/k-catalog-hp.jpg?id=99587);
+}
+
+#third-box .fb{
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/07/refer-friend-loyalty.jpg?id=131605);
+}
+
+
+
+/*--------------+++ 🛒Shoping +++----------------*/
+#shop{
+    width: 100%;
+    height: 760px;
+    padding: 45px 23px;
+    /* background: rgb(201, 61, 61); */
+    text-align: center;
+}
+
+#shop h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#shop .card{
+    padding: 100px 10px;
+    height: 100%;
+}
+
+#shop .card ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 16rem;
+}
+
+#shop .card ul li{
+    height: auto;
+    width: 16rem;
+    margin-right: 20px;
+}
+
+#shop .card ul li:last-child{
+    margin: 0;
+}
+
+#shop .card ul li h3{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+#shop .card li img{
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+#shop .card ul li h5{
+    display: inline;
+    color: black;
+    margin-right: 5px;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 14px
+}
+
+#shop .card ul li span{
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+}
+
+
+
+
+/* --------------------+++Branding+++---------------------------- */
+
+
+#branding{
+    background: #f7f7f7 ;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+}
+
+
+#branding ul{
+    display: flex;
+    justify-content: center;
+}
+#branding ul li{
+    display: flex;
+    margin-right: 9rem;
+}
+
+#branding ul li:last-child{
+    margin-right: 0;
+}
+
+#branding ul li div{
+    margin: auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+#branding ul li img{
+    height: 45px;
+    width: 45px;
+    margin-right: 16px;
+}
+
+
+
+/* -----------------------+++Footer+++--------------------------- */
+footer {
+    background: #1e1e1e;
+    width: 100%;
+    height: 653px;
+    padding: 4.4rem 1.5rem;
+}
+
+footer section{
+    display: flex;
+}
+
+footer #foot-one{
+    margin-bottom: 3rem;
+}
+
+#foot-one div ul li{
+    margin-bottom: 6px;
+}
+
+#foot-one div ul li a{
+    font-size: 13px ;
+    text-transform: uppercase ;
+    font-weight: 500 ;
+    color: #8b8b8b
+}
+
+
+#foot-one div ul li h2{
+    margin-bottom: 13px;
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase ;
+    color: #f8f8f8;
+}
+
+
+#foot-one .foot-box-1{
+    padding-left: 15px;
+    padding-right: 41px;
+}
+
+.foot-box-2, .foot-box-2, .foot-box-3, .foot-box-4{
+    padding: 0px 41px;
+}
+
+
+footer #foot-two ul li{
+    margin-right: 12.2rem;
+}
+
+footer #foot-two ul li:last-child{
+    margin-right: 0;
+}
+
+footer #foot-three {
+    height: 4rem;
+}
+
+
+.address {
+    margin-top: 15px;
+}
+
+.address p{
+    margin-top: 0;
+}
+
+
+#foot-one .foot-box-5{
+    padding-left: 41px;
+    padding-right: 15px;
+}
+
+#foot-two {
+    justify-content: center;
+}
+
+#foot-three div{
+    text-align: center;
+}
