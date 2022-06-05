@@ -213,7 +213,8 @@ header {
 .box{
     background: rgb(255, 255, 255);
     width: 100%;
-    height: 828px;
+    padding-top: 21px;
+    /* height: 828px; */
 }
 
 .box .cube{
@@ -223,7 +224,7 @@ header {
 }
 
 .horizon{
-    height: 50%;
+    /* height: 50%; */
 }
 
 .vertical {
@@ -245,7 +246,7 @@ header {
 .image{
     width: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -264,64 +265,141 @@ header {
 
 /* --------------------+++First-Box+++------------------------ */
 #first-box .horizon{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2022/04/gunzonedeals-hp-1500x750.jpg); */
-    background: #000;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2022/04/gunzonedeals-hp-1500x750.jpg);
+    height: 304px;
+    width: 669px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 5px 5px;
+    padding: 41px 6px 41px 357px;
 }
 
 
 #first-box .vertical .first{
 
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/08/cloud-defensive-light-kusa.jpg); */
-    background: #421a1a;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/08/cloud-defensive-light-kusa.jpg);
+    height: 304px;
+    width: 314px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 5px 0px;
+    padding: 65px 0px 0px 59px;
 }
 
 #first-box .vertical .last{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/07/KUSA_05-sq.jpg); */
-    background-color: #e5e5e5;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/07/KUSA_05-sq.jpg);
+    height: 304px;
+    width: 314px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 21px 5px 33px;
+    padding: 65px 0px 0px 59px;
+
 }
 
 #first-box .fb-sd{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/05/k-media-hp-1.jpg); */
-    background-color: burlywood;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/05/k-media-hp-1.jpg);
+    height: 618px;
+    width: 1164px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 0px 0px;
+    padding: 403px 0px 0px 69px;
 }
 
 
 
 /* --------------------+++Second-Box+++------------------------ */
 #second-box .fb-sd{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/08/ks-12T-fde-shotgun-sq.jpg); */
-    background-color: #eee318;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/08/ks-12T-fde-shotgun-sq.jpg);
+    height: 618px;
+    width: 1164px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 0px 5px;
+    padding: 403px 0px 0px 69px;
 }
 
 #second-box .horizon{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/kr103.jpg); */
-    background-color: cornsilk;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/kr103.jpg);
+    height: 304px;
+    width: 669px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 5px 5px;
+    padding: 41px 6px 41px 357px;
 }
 
 #second-box .vertical .first{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KP-9.jpg); */
-    background-color: chartreuse;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KP-9.jpg);
+    height: 304px;
+    width: 314px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 41px 5px 0px;
+    padding: 65px 0px 0px 59px;
 }
 
 #second-box .vertical .last{
-    /* background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KR-9.jpg); */
-    background-color: floralwhite;
+    background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2020/06/KR-9.jpg);
+    height: 304px;
+    width: 314px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 22px 5px 0px;
+    padding: 65px 0px 0px 59px;
 }
 
 
 /* --------------------+++Third-Box+++------------------------ */
 #third-box{
-    height: 436px;
+    /* height: 436px; */
 }
 
 #third-box .fb-sd{
     background-image: url(https://kalashnikov.wpengine.com/wp-content/uploads/2020/05/k-catalog-hp.jpg?id=99587);
+    height: 354px;
+    width: 648px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 5px 0px;
+    padding: 83px 0px 0px 52px;
 }
 
 #third-box .fb{
     background-image: url(https://kalashnikov-usa.com/wp-content/uploads/2021/07/refer-friend-loyalty.jpg?id=131605);
+    height: 354px;
+    width: 648px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px 5px 5px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #808080 ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-text{
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.fb input{
+    height: 46px;
+    width: 370px;
+    margin: 16px 139px;
+    border-radius: 30px;
+    border: none;
+}
 
 
 /*--------------+++ 🛒Shoping +++----------------*/
