@@ -457,7 +457,7 @@ header {
     margin-right: 5px;
     text-decoration: line-through;
     font-weight: 600;
-    font-size: 14px
+    font-size: 14px;
 }
 
 #shop .card ul li span{
@@ -566,6 +566,7 @@ footer #foot-two ul li:last-child{
 
 footer #foot-three {
     height: 4rem;
+    margin-top: 40px;
 }
 
 
